@@ -1,0 +1,47 @@
+.login-div{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+p-button button{
+  width: 100%;
+}
+
+.ls-div{
+  width:6vh ;
+  height: 6vh;
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.ls-div-text{
+  width:8vh ;
+  height: 6vh;
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+}
+
+.ls-div:hover{
+  transform: translate(0px,45px);
+}
+
+.welcome-div{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
